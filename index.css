@@ -1,0 +1,64 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    background: #fffbe7;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  #battlefield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 64px;
+    margin: 20px 0;
+  }
+  
+  .fighter {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .power {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  #versus {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+  
+  #winner {
+    margin: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  #scoreboard {
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffd54f;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fbc02d;
+  }
+  
